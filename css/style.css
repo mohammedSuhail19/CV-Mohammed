@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+  background-color: #635d5d;
+  overflow: hidden;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  /* position: fixed; */
+}
+nav img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    padding: 0px;
+    margin: 0px;
+}
+nav h1 {
+    color: white;
+    text-transform: capitalize;
+    font-size: xx-large;
+    padding-right: 150px;
+    padding-left: 30px;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: xx-large;
+  padding: 25px;
+}
+
+nav ul li a:hover {
+  color: rgb(117, 180, 207);
+}
+hr {
+  border-color:white ;  
+}
+#info {
+    background-image: url(../img/istockphoto.jpg);
+    height: 60vh; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 90px;
+    padding-left: 90px;
+}
+#info h3 {
+    color: rgb(188, 176, 176);
+    padding-bottom: 5px;
+}
+.icon a{
+    padding: 7px;
+    font-size: 25px;
+
+}
+#About {
+    display: flex;
+    padding: 80px;
+}
+#About .ldiv {
+    width: 30%;
+}
+#About .ldiv h2{
+    color: rgb(188, 176, 176);
+    padding-bottom: 10px;
+    padding-left: 60px;
+}
+#About .rdiv {
+    width: 70%;
+}
+#About .rdiv p{
+    padding-bottom: 50px;
+} 
+#About .rdiv div {
+    display: flex;
+    justify-content: space-between;
+}
+.rlod {
+    padding-bottom: 15px;
+    font-size:x-large ;
+    padding-bottom: 15px;
+    color: rgb(52, 49, 49);
+}
+.loading {
+    height: 15px ;
+    width: 950px;
+    background-color: gray;
+    border-radius: 12px;
+}
+.loading div {
+    height: 15px ;
+    width: 95%;
+    background-color: rgb(117, 180, 207);;
+    border-radius: 12px;
+}
+.loading .div2 {
+    height: 15px ;
+    width: 90%;
+    background-color: rgb(117, 180, 207);
+    border-radius: 12px;
+}.loading .div3 {
+    height: 15px ;
+    width: 75%;
+    background-color: rgb(117, 180, 207);
+    border-radius: 12px;
+}.loading .div4 {
+    height: 15px ;
+    width: 92%;
+    background-color: rgb(117, 180, 207);
+    border-radius: 12px;
+}
+#experience{
+    background-color: #635d5d;
+    height: 85vh;
+    display: flex;
+}
+#experience .ldiv {
+    width: 30%;
+}
+#experience .ldiv h2{
+    color: rgb(188, 176, 176);
+    padding-top: 80px;
+    padding-left: 90px;
+    text-transform: capitalize;
+}
+#experience .rdiv {
+    display: flex;
+    width: 70%;
+    padding-top: 80px;
+}
+#experience .rdiv h1{
+    padding-bottom: 15px;
+}
+#experience .rdiv div {
+    background-color: white;
+    display: block;
+    padding: 20px;
+    margin-right: 100px;
+    height: 520px;
+    transition-duration: 0.5s;
+    border-radius: 10px;
+}
+
+#experience .rdiv :hover{
+    transition: 0.6s;
+    background-color:  rgb(117, 180, 207);
+}
+#works{
+    display: flex;
+    /* height: 70vh; */
+}
+#works .ldiv {
+    width: 30%;
+}
+#works .ldiv h2{
+    color: rgb(188, 176, 176);
+    padding-top: 80px;
+    padding-left: 90px;
+    text-transform: capitalize;
+}
+#works .rdiv{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 20px;
+}
+#works img{
+    width: 400px;
+}
+/* تطبيق تأثير التكبير عند التمرير على الصور */
+.rdiv img {
+    transition: transform 0.3s ease;
+  }
+  
+#works .rdiv img:hover {
+    transform: scale(1.2);
+  }
+  ة#works  .img2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+} 
+.img1 img, .img2 img {
+    width: 100%;
+    height: auto;
+}
+.img1 {
+    display: flex;
+}
+.img2 {
+    display: flex;
+}
+#contact {
+    display: flex;
+    height: 30vh;
+    background-color: #635d5d;
+}
+#contact .ldiv {
+    width: 30%;
+}
+#contact .ldiv h2{
+    color: rgb(188, 176, 176);
+    padding-top: 110px;
+    padding-left: 150px;
+    text-transform: capitalize;
+}
+#contact .rdiv {
+    display: flex;
+    width: 70%;
+    padding-top: 100px;
+}
+#contact .rdiv div {
+    /* text-align: center; */
+    padding-right: 120px;
+}
+#footer {
+    display: flex;
+    height: 10vh;
+}
+#footer .ldiv {
+    width: 30%;
+    padding-top: 25px;
+    padding-left: 50px;
+}
+#footer span {
+    color: rgb(30, 173, 235);
+}
+#footer .rdiv {
+    padding-top: 25px;
+    padding-left: 730px;
+}
+#info .arrow {
+    position: fixed;
+    width: fit-content;
+    height: 200px;
+    display: flex;
+    margin-left: 88%;
+    justify-content: flex-end;
+    align-items: end;
+}
+.arrow i{
+    border-radius: 50%;
+    box-shadow: 1px 6px 8px 0;
+    cursor: pointer;
+    margin-right: 40px;
+    color:rgb(117, 180, 207);
+    font-size: 50px;
+}
+html {
+    scroll-behavior: smooth;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Cairo', sans-serif;  
+    font-size: .9em; 
+}
