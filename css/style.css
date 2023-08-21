@@ -11,7 +11,8 @@ nav {
   justify-content: center;
   align-items: center;
   padding: 10px;
-  /* position: fixed; */
+  position: fixed;
+  width: 100%;
 }
 nav img {
     height: 120px;
@@ -52,10 +53,10 @@ hr {
 }
 #info {
     background-image: url(../img/istockphoto.jpg);
-    height: 60vh; 
+    height: 80vh; 
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 90px;
+    padding-top: 170px;
     padding-left: 90px;
 }
 #info h3 {
